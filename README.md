@@ -4,6 +4,8 @@
 
 See also <https://aws.amazon.com/elasticbeanstalk/>
 
+No Python - Virtualenv included.
+
 ##LICENSE
 
 Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved.
