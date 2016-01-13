@@ -20,6 +20,8 @@ FROM    python:3.4.2
 
 MAINTAINER    YaSanBee
 
+VOLUME    ["/var/app"]
+
 WORKDIR    /var/app
 
 RUN    pip install --download-cache /src uwsgi
