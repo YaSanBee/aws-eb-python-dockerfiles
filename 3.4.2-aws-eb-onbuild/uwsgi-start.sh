@@ -2,8 +2,6 @@
 
 cd /var/app
 
-. bin/activate
-
 # Django support
 if cat requirements.txt | grep -q -i Django && [ -z "$WSGI_PATH" ]; then
 	WSGI_PATH=`find /var/app | egrep '/var/app/[^/]+/wsgi.py'`
